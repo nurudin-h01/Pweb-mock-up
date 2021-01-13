@@ -1,0 +1,671 @@
+    /* khusus halaman index sampe baris 270 */
+    
+    .menu-toggles {
+        display: none;
+        flex-direction: column;
+        height: 20px;
+        justify-content: space-between;
+        bottom: -15px;
+        left: -50px;
+        position: relative;
+    }
+    
+    .menu-toggles input {
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        left: -10px;
+        top: -10px;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 2;
+    }
+    
+    .menu-toggles span {
+        display: block;
+        width: 28px;
+        bottom: -10px;
+        height: 4px;
+        background-color: brown;
+        border-radius: 4px;
+    }
+    
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    ul {
+        list-style: none;
+        text-decoration: none;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0px;
+    }
+    
+    header {
+        height: 60px;
+        width: 100%;
+        background-color: rgb(253, 226, 125, 1);
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+    }
+    
+    .container-1 {
+        width: 100%;
+        padding: 0 30px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .kiri {
+        line-height: 60px;
+    }
+    
+    .logo {
+        font-style: normal;
+        font-family: bignoodletitling;
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .tengah {
+        height: 60px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 18px 0px;
+    }
+    
+    .navbar a {
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    
+    .navbar a:hover {
+        transition: all 0.5s;
+        color: rgba(0, 0, 0, 0.316);
+        border-bottom: 2px solid;
+    }
+    
+    .cari {
+        margin-right: 20px;
+        margin-top: 15px;
+        padding-right: 30px;
+    }
+    
+    .cari-dalam-box {
+        border: 2px solid whitesmoke;
+        border-radius: 10px;
+        width: 160px;
+        height: 20px;
+        opacity: 0.7;
+        font-size: 12px;
+        color: -internal-light-dark(rgba(0, 0, 0, 0.316), rgba(255, 255, 255, 0.815));
+    }
+    
+    .fa {
+        margin-right: 5px;
+    }
+    
+    .header-2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        background-image: url(asset/PANTAI-BALEKAMBANG-990x558.jpg);
+        background-size: cover;
+        filter: brightness(90%);
+    }
+    
+    .header-2 .container h1 {
+        text-align: center;
+        color: azure;
+    }
+    
+    .header-2 .container h3 {
+        text-align: center;
+        color: azure;
+    }
+    
+    .btn-header {
+        border: 1px solid #FBE284;
+        background-color: #FBE284;
+        height: 35px;
+        width: 120px;
+        border-radius: 10px;
+        opacity: 1;
+        font-size: 16px;
+        text-align: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .btn-header:hover {
+        background-color: #FBE284;
+        opacity: 0.5;
+    }
+    
+    .btn-header a {
+        font-family: bignoodletitling;
+        font-size: 20px;
+        color: rgb(94, 87, 6);
+        letter-spacing: 2px;
+        line-height: 35px;
+        font-weight: bold;
+    }
+    
+    .main {
+        height: auto;
+        padding-bottom: 0px;
+        background-color: #FFDB56;
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .title {
+        margin: 0px 0px 0px 60px;
+    }
+    
+    .title h3 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-top: 35px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .title p {
+        width: auto;
+        height: auto;
+        text-indent: 5em;
+        text-align: justify;
+        font-size: 12px;
+        margin-right: 40px;
+    }
+    
+    .main-atas {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex: auto;
+        padding: 0px 180px 10px 180px;
+    }
+    
+    .pembatas {
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .main-atas-icon {
+        margin-bottom: 15px;
+    }
+    
+    .lingkaran {
+        width: 130px;
+        height: 130px;
+        background-color: #fdfbec;
+        border-radius: 100%;
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .ket {
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+    
+    .spl {
+        padding: 0px 60px 60px 60px;
+    }
+    
+    .sample {
+        background-color: #EFF9FF;
+    }
+    
+    .title-sample h3 {
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+    
+    .title-sample {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .title-sample a {
+        margin-top: 0px;
+        padding-top: 33px;
+        font-size: 12px;
+    }
+    
+    .sample-list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex: auto;
+    }
+    
+    .sample-blok {
+        width: 260px;
+        height: 180px;
+        border: 0px;
+        border-radius: 5%;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+    
+    .card:hover {
+        transition: 0.5s;
+        opacity: 0.7;
+    }
+    
+    .card {
+        text-align: center;
+    }
+    
+    .card a {
+        margin: 0px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    footer {
+        display: inline-flex;
+        width: 100%;
+        height: 250px;
+        background-color: rgb(31, 5, 99);
+        color: white;
+    }
+    
+    .informasi {
+        margin: 60px;
+    }
+    
+    .informasi-1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .informasi-kiri h3 {
+        color: #FF6B00;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    
+    .informasi-kiri ul li {
+        margin: 10px 0px;
+        font-size: 12px;
+    }
+    
+    .informasi-tengah {
+        padding: 0 20px;
+    }
+    
+    .informasi-tengah h3 {
+        color: #FF6B00;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    
+    .informasi-tengah ul li {
+        margin: 10px 0px;
+        font-size: 12px;
+    }
+    
+    .informasi-kanan h3 {
+        color: #FF6B00;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    
+    .informasi-kanan ul li {
+        margin: 10px 0px;
+        font-size: 12px;
+    }
+    
+    .medsos {
+        height: 30px;
+        width: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 5px 5px;
+    }
+    /* khusu halaman formulir sampai baris 340 */
+    
+    .box-luar {
+        width: 100%;
+        height: 710px;
+    }
+    
+    .box-dalam {
+        background-color: #EFF9FF;
+        height: 100vh;
+    }
+    
+    .box-dalam h3 {
+        padding-left: 70px;
+        padding-top: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    
+    .box-kiri {
+        margin: 00px 0px 10px 70px;
+        font-size: 14px;
+        color: black;
+        font-weight: 700;
+    }
+    
+    .der {
+        border: 1px solid #FF6B00;
+        background-color: #fdfbec;
+        font-size: 12px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .bor {
+        width: 450px;
+        height: 35px;
+        margin-top: 15px;
+    }
+    
+    .der-1 {
+        height: 100px;
+        border: 1px solid #FF6B00;
+        background-color: #fdfbec;
+        font-size: 12px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .pilihan {
+        width: 450px;
+        height: 30px;
+        border: 1px solid #FF6B00;
+        background-color: #fdfbec;
+        font-size: 12px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+    
+    .box-kiri button {
+        background-color: rgb(109, 80, 8);
+        ;
+        color: #FBE284;
+        height: 30px;
+        width: 110px;
+        border-radius: 7px;
+        margin-left: 340px;
+        border: 0px;
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    
+    .box-kiri button:hover {
+        transition: 0.5s;
+        background-color: rgb(109, 80, 8, 0.6);
+        ;
+        color: #FBE284;
+    }
+    
+    .box-kiri p {
+        margin: 0px;
+        padding: 0px
+    }
+    /* untuk halaman hotel */
+    
+    .baru {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+    }
+    
+    .tab-baru {
+        text-indent: 2em;
+        margin-top: 100px;
+        align-items: center;
+    }
+    
+    .center {
+        display: flex;
+        flex-direction: row;
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 1200px;
+        align-items: center;
+    }
+    
+    .images {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .right {
+        position: absolute;
+        right: 0px;
+        margin-top: 0px;
+    }
+    /* Untuk wisata */
+    
+    .tabel {
+        display: flex;
+    }
+    
+    .tabel1 {
+        flex: 33.33%;
+    }
+    
+    .teks {
+        text-align: center;
+        margin: 20px 20px 20px 20px;
+    }
+    
+    .text1 {
+        margin-top: 330px;
+        text-align: left;
+    }
+    
+    .bg {
+        height: 500px;
+        background-image: url(asset/PANTAI-BALEKAMBANG-990x558.jpg);
+        background-size: cover;
+        filter: brightness(90%);
+    }
+    
+    .bg .teks1 {
+        text-align: left;
+    }
+    /* untuk hotel */
+    
+    .bg1 {
+        width: 100%;
+        height: 840px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-image: url(asset/atria.jpg);
+        filter: brightness(90%);
+    }
+    /* khusu halaman budaya sampai baris  */
+    
+    .space-kosong {
+        width: 100%;
+        height: 60px;
+        background-color: EFF9FFe;
+        opacity: 0.0;
+    }
+    
+    .header-3 {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        background-image: url(asset/Tari-topeng4\ -\ Copy.jpg);
+        background-size: cover;
+        filter: brightness(80%);
+    }
+    
+    .Bdy-2 {
+        margin-right: auto;
+        padding-left: 50px;
+        font-size: 26px;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0px 0px 0px 60px;
+        color: white;
+    }
+    
+    .space-kosong2 {
+        height: 300px;
+    }
+    
+    .materi {
+        margin: 30px 60px 30px 60px;
+        text-align: justify;
+    }
+    
+    .materi p {
+        margin-left: 20px;
+        padding-top: 15px;
+    }
+    
+    .foto-lain {
+        display: flex
+    }
+    
+    .gambar {
+        height: 100px;
+        width: 150px;
+        margin: 5px;
+    }
+    
+    .persagi {
+        width: 130px;
+        height: 130px;
+        background-color: #fdfbec;
+        opacity: 0.7;
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /* .item {
+    display: block;
+}
+
+.item.active {
+    display: block;
+} */
+    /* .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    color: black;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+} */
+    
+    @media only screen and (max-width: 1000px) {
+        .sample-list {
+            flex-direction: column;
+        }
+        .sample-blok {
+            width: 100%;
+            height: 480px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .cari {
+            display: none;
+        }
+        .menu-toggles {
+            display: flex;
+        }
+        .navbar {
+            padding-top: 60px;
+            position: absolute;
+            right: 0;
+            width: 100%;
+            top: 0;
+            height: 300px;
+            flex-direction: column;
+            background-color: rgb(253, 226, 125, 1);
+            align-items: center;
+            justify-content: space-around;
+            transform: translateY(-100%);
+            z-index: -1;
+            font-size: 20px;
+            transition: all 1s;
+        }
+        .navbar.slide {
+            transform: translateY(0);
+        }
+        .title p{
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 950px) {
+        .main-atas {
+            flex: auto;
+            align-items: center;
+            flex-direction: column;
+        }
+        .lingkaran {
+            width: 260px;
+            height: 260px;
+        }
+        .images {
+            width: 600px;
+        }
+        .center {
+            width: 600px;
+        }
+    }
