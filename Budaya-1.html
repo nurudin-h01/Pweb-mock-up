@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="ngalamkuy.css">
+    <link rel="stylesheet" href="wisata.css">
     <script src="https://kit.fontawesome.com/87b7079bb9.js" crossorigin="anonymous"></script>
     <title>Budaya</title>
 </head>
+
 <body>
     <header>
         <div class="container-1">
@@ -13,12 +15,20 @@
                 <a href="index.html" class="logo" style="color: rgb(120, 88, 7);">NGALAM<span style="color: rgb(242, 138, 26);">KUY</span></a>
             </div>
             <div class="tengah">
-                <ul class="navbar">
-                    <a href="hotel.html">HOTEL</a>
-                    <a href="Budaya-1.html">BUDAYA</a>
-                    <a href="wisata.html">WISATA</a>
-                    <a href="Bantuan.html">BANTUAN</a>
+                <ul class="navbar" id="navbar1">
+                    <li><a href="hotel.html" class="item">HOTEL</a></li>
+                    <li><a href="Budaya-1.html" class="item">BUDAYA</a></li>
+                    <li><a href="wisata.html" class="item">WISATA</a></li>
+                    <li><a href="Bantuan.html" class="item">BANTUAN</a></li>
+                    <li class="toggle"><span class="bars"></span></li>
                 </ul>
+            </div>
+            <div class="menu-toggles">
+                <input type="checkbox" id="navbar-box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div class="cari">
                 <a href="#"><span class="fa fa-search"></span></a>
@@ -36,25 +46,33 @@
             <div class="sample-list">
                 <div class="card">
                     <div class="pembatas-sample">
-                        <div><a href="#"><img class="sample-blok" src="asset/candi-singosari.jpg" alt=""></a></div>
+                        <div>
+                            <a href="#"><img class="sample-blok" src="asset/candi-singosari.jpg" alt=""></a>
+                        </div>
                     </div>
                     <a href="#">Candi Singosari</a>
                 </div>
                 <div class="card">
                     <div class="pembatas-sample">
-                        <div><a href="Budaya-2.html"><img class="sample-blok" src="asset/Tari-topeng4.jpg" alt=""></a></div>
+                        <div>
+                            <a href="Budaya-2.html"><img class="sample-blok" src="asset/Tari-topeng4.jpg" alt=""></a>
+                        </div>
                     </div>
                     <a href="Budaya-2.html">Tari Topeng Malangan</a>
                 </div>
                 <div class="card">
                     <div class="pembatas-sample">
-                        <div><a href="#"><img class="sample-blok" src="asset/tari-beskelan.jpeg" alt=""></a></div>
+                        <div>
+                            <a href="#"><img class="sample-blok" src="asset/tari-beskelan.jpeg" alt=""></a>
+                        </div>
                     </div>
                     <a href="#">Tari Beskelan</a>
                 </div>
                 <div class="card">
                     <div class="pembatas-sample">
-                        <div><a href="#"><img class="sample-blok" src="asset/upacara Yadnya Kasada.jpg" alt=""></a></div>
+                        <div>
+                            <a href="#"><img class="sample-blok" src="asset/upacara Yadnya Kasada.jpg" alt=""></a>
+                        </div>
                     </div>
                     <a href="#">Upacara Kasodo - Suku Tegger</a>
                 </div>
@@ -98,5 +116,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        let nav = document.querySelector('.navbar');
+        let menu = document.querySelector('.menu-toggles input');
+        menu.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
 </body>
+
 </html>
