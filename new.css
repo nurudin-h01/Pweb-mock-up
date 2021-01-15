@@ -23,6 +23,7 @@ nav ul li:hover {
     color: white;
 }
 
+#ukuran layar respon
 @media all and (max-width: 600px) {
     nav ul {
         flex-direction: column;
