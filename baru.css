@@ -590,16 +590,6 @@
         width: 150px;
         margin: 5px;
     }
-    
-    .persagi {
-        width: 130px;
-        height: 130px;
-        background-color: #fdfbec;
-        opacity: 0.7;
-        background-size: 60%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
     /* .item {
     display: block;
 }
